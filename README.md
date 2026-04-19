@@ -236,8 +236,8 @@ A mini template engine that interpolates variables in a string. It supports dot 
 
 ```javascript
 const template = parseTemplate('Hello, {{user.name}}!');
-const result = template({ user: { name: 'Alex' } });
-console.log(result); // "Hello, Alex!"
+const result = template({ user: { name: 'Troncho' } });
+console.log(result); // "Hello, Troncho!"
 ```
 
 ### Timing
