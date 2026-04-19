@@ -88,7 +88,7 @@ describe('parseDOMString', () => {
 
     it('Returns NodeList for multiple nodes', () => {
         const nodes = parseDOMString('<a></a><b></b>');
-        expect(nodes).toBeInstanceOf(NodeList);
+        expect(nodes).toBeInstanceOf(HTMLCollection);
     });
 });
 
